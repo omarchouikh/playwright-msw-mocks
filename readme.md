@@ -36,4 +36,10 @@ npm install playwright playwright-msw msw
 
 - `msw-worker/worker.ts`: This file sets up the MSW worker and extends the Playwright test function with the worker and HTTP utilities. The createWorkerFixture function from playwright-msw is used to create a worker fixture based on the mock API handlers defined in handlers.ts. The extended test function can now be used in Playwright tests to access the worker and HTTP utilities.
 
-- `tests/example.spec.ts`: This file contains the Playwright test that uses the mocked API.
+## Running the Tests
+
+```bash
+npx playwright test
+```
+
+## ENJOY :D
